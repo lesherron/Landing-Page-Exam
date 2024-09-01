@@ -1,0 +1,100 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>To Your (Mental) Health!</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Improved Mental Health" class="your-active-class">
+      <div class="landing__container">
+        <h3></h3>
+        <h2>Improved Mental Health</h2>
+        <div class="content">
+          <img src="img/your_mental_healh_matters_AdobeStock_503028691.jpeg" alt="Graphic that says Your Mental Health Matters" class="responsive-img">
+          <p class="whatis">High self-esteem helps lower mental health issues such as anxiety and depression, and promotes a positive outlook on life and enhances emotional regulation.</p>
+        
+          <p class="extra">
+            <strong>Ways to Improve:</strong><br>
+            <div><em>Practice Mindfulness:</em> Mindful meditation helps us become more aware of your thoughts and feelings without judgment, thereby reducing anxiety and improving overall well-being.</div> <br>
+            <div><em>Positive Affirmations:</em> Positive affirmations to challenge and replace negative thoughts with more constructive ones. Regular practice is key</div>
+           </p>
+      </div>
+    </div>
+    </section>
+    <section id="section2" data-nav="Better Relationships">
+      <div class="landing__container">
+        <h2>Better Relationships</h2>
+        <div class="content">
+          <img src="img/two_friends_AdobeStock_606189087.jpeg" alt="Two friends spending time outside" class="responsive-img">
+          <p class="whatis">Did you know? People with positive self-esteem tend to have healthier and more satisfying relationships because they are more likely to set boundaries, communicate effectively, and respect both themselves and others.</p>
+        
+          <p class="extra">
+            <strong>Ways to Improve:</strong><br>
+            <div><em>Set Boundaries:</em> Learn to set healthy boundaries in your relationships. This means saying no when necessary and ensuring your needs are respected.</div><br>
+            <div><em>Effective Communication:</em> Try to practice active listening and assertive communication to express your thoughts and feelings clearly and respectfully.</div>
+          </p>
+      </div>
+    </div>
+    </section>
+    <section id="section3" data-nav="Increased Motivation & Achievement">
+      <div class="landing__container">
+        <h2>Increased Motivation & Achievement</h2>
+        <div class="content">
+          <img src="img/handshake_woman_job_AdobeStock_508941624.jpeg" alt="A person shaking hands with someone else" class="responsive-img">
+          <p class="whatis">Strong self-esteem boosts confidence in one’s abilities, leading to greater motivation to pursue goals and take on challenges. The are results often higher levels of achievement and personal satisfaction.</p>
+        
+          <p class="extra">
+            <strong>Ways to Improve:</strong><br>
+            <div><em>Set Goals:</em> Set realistic and achievable goals. Break them down into smaller steps to make them more manageable and celebrate your progress along the way.</div><br>
+            <div><em>Develop Skills:</em> Invest your time learning new skills or improving existing ones. That extra confidence and sense of accomplishment are well worth the efforts!</div>
+          </p>
+      </div>
+    </div>
+    </section>
+    <section id="section4" data-nav="Enhanced Coping Skills">
+      <div class="landing__container">
+        <h2>Enhanced Coping Skills</h2>
+        <div class="content">
+          <img src="img/lady_dancing_AdobeStock_385397829.jpeg" alt="A person dancing" class="responsive-img">
+          <p class="whatis">Individuals with strong self-esteem are better equipped to handle stress and setbacks. They view challenges as opportunities for growth rather than insurmountable obstacles.</p>
+        
+          <p class="extra">
+            <strong>Ways to Improve:</strong><br>
+            <div><em>Stress Management Techniques:</em> Learn how to practice stress management techniques such as deep breathing exercises, yoga, or journaling.</div><br>
+            <div><em>Reframe Challenges:</em> Try to view challenges as chances for growth. A reframed mindset can help you approach difficulties with a more positive and resilient attitude.</div>
+          </p>
+      </div>
+    </div>
+    </section>
+  </main>
+  
+
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+  <!-- Scroll to Top button -->
+  <button id='scrollToTopBtn' class='scroll-to-top'>Top</button>
+</body>
+</html>
