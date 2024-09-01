@@ -10,19 +10,17 @@ Modified the HTML and CSS files, but primarily used the JavaScript file to creat
 
 Started with the `js/app.js` file to start building out the app's functionality
 
-## Loading the Web Page
-To get the page running you'll need to start the Node server by typing an npm command in the terminal:
-```
-npm start
-```
+## Changes
+1. Added styling to navigation items so that the item is highlighted according to the chosen section (javascript)
+2. Added styling to each section when it is active (javascript)
+3. Used javascript and css to hide the navigation bar when the browser is idle
+4. Used javascript and css to add a scroll to top button when the viewport is below the first section
+5. Added a fourth section
+6. Changed design (see Design Changes)
 
-To see the web page, you'll need to click the ***VIEW THE WEB PAGE*** button at the bottom of the screen.
 
-That will open a new browser tab that contains the replica web page.  The page will update as you make changes.
+## Design Changes
 
-## Tips for Using the Workspace
-
-1. Expand the workspace to full screen. That will give you more room to work.
-2. If the type in the workspace is too small, use your browser's zoom control to magnify the screen.
-3. You can upload files to the workspace by dragging and dropping them into the workspace window.
-4. You can download files from the workspace by right-clicking on the file in the ***Explorer*** panel and selecting ***Download***.
+1. Replaced dummy text with real text for all sections 
+2. Added images to each section, keeping responsiveness in mind
+3. Added more styling to the <p> elements
